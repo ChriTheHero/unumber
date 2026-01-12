@@ -1,0 +1,96 @@
+site_name: unumber Documentation
+site_description: Arbitrary-precision numeric types (integer, decimal, rational, float, modular) built on GMP.
+site_url: https://usub-development.github.io/unumber/
+
+repo_url: https://github.com/Usub-development/unumber
+repo_name: Usub-development/unumber
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - autorefs
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+  - tables
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: getting-started/installation.md
+      - Quickstart: getting-started/quickstart.md
+      - CMake integration: getting-started/cmake.md
+  - Types:
+      - BigInteger: types/biginteger.md
+      - BigDecimal: types/bigdecimal.md
+      - BigFloat: types/bigfloat.md
+      - BigRational: types/bigrational.md
+      - BigModular: types/bigmodular.md
+      - BigMatrix: types/bigmatrix.md
+  - Guides:
+      - Parsing & formatting: guides/parsing-formatting.md
+      - Rounding & scale (BigDecimal): guides/rounding-scale.md
+      - Primes & random (BigInteger): guides/primes-random.md
+      - Modular arithmetic: guides/modular.md
+  - Reference:
+      - Exceptions & error rules: reference/errors.md
+      - Interop with GMP: reference/gmp-interop.md
+      - Compatibility notes: reference/compat.md
+  - FAQ: faq.md
+  - Contributing: contributing.md
+  - License: license.md
+  - Changelog: changelog.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Usub-development/unumber
+      name: GitHub Repository
+    - icon: fontawesome/solid/star
+      link: https://github.com/Usub-development/unumber/stargazers
+      name: Star on GitHub
+
+copyright: >
+  Copyright © 2025 Usub-development, Kirill Zhukov (g2px1)
